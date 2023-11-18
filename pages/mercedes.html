@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-n-Ride</title>
+    <link rel="icon" href="../icons/incon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid text-center">
+            <a href="../index.html" class="navbar-brand col-6"><strong>Rent-n-Ride</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="../index.html" class="mercedes-brand nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Автомобили
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="navbar-item">
+                                <a href="rolls.html" class="rolls-royce-brand nav-link">Rolls-Royce</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="lambo.html" class="lamborghini-brand nav-link">Lamborghini</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="ferrari.html" class="ferrari-brand nav-link">Ferrari</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="porsche.html" class="porsche-brand nav-link">Porsche</a>
+                            </li>
+                        </ul>
+                      </li>
+                      <li class="navbar-item">
+                        <a href="about.html" class="mercedes-brand nav-link">О нас</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="time.html" class="mercedes-brand nav-link">Время работы</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="feedback.html" class="mercedes-brand nav-link">Отзывы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 20px;">
+        
+        <div class="container-lg">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">Главная</li>
+                  <li class="breadcrumb-item">Автомобили</li>
+                  <li class="breadcrumb-item active" aria-current="page">Mercedes</li>
+                </ol>
+              </nav>
+            <div class="row">
+                <div class="col-xl-6 col-sm-12">
+                    <img src="../img/cards/Mercedes.jpeg" class="d-block w-100" alt="Mercedes">
+                </div>
+                <div class="col-xl-6 col-sm-12 h-100">
+                    <h1 style="font-size: 36px; margin: 0; padding: 0; padding-bottom: 40px;">Mercedes-Benz G63 AMG</h1>
+                    <p style="color: darkslategrey; padding-bottom: 40px">Является немецким производителем легковых и коммерческих автомобилей. Дочерняя компания Mercedes-Benz Group AG, находящаяся в полной собственности, со штаб - квартирой в Штутгарте, Германия, была образована 1 ноября 2019 года путем выделения подразделения легковых автомобилей и микроавтобусов. Компания продает свои автомобили под марками Mercedes-Benz с суббрендами Mercedes-Maybach и Mercedes - AMG, smart, а также под брендом „продукция и технологии“ Mercedes-EQ для электромобильности. Компания Mercedes-Benz AG существовала с 29 июня 1989 года по 31 марта 1997 года как дочерняя компания тогдашней Daimler-Benz AG. </p>
+                    <div class="price d-flex flex-column justify-content-end">
+                        <h1>480 BYN/час</h1>
+                        <h1 style="color: gray; text-decoration: line-through; font-size: 25px;">520 BYN/час</h1>
+                    </div>
+                    <p style="color: darkslategrey; padding-top: 10px">Доступно автомобилей: 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid form bg-body-tertiary bg-dark" data-bs-theme="dark" style="padding: 0; margin-top: 50px; padding-bottom: 40px; background-color: whitesmoke;">
+        <div class="container-lg">
+            <form class="row g-3">
+                <h1 class="text-center" style="padding-top: 20px; color: white;">ЗАКАЖИТЕ MERCEDES-BENZ G63 AMG</h1>
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label" style="color: white;">Эл. адрес</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label" style="color: white;">Адрес</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Проспект Ленина">
+                </div>
+                <div class="col-md-3">
+                  <label for="inputCity" class="form-label" style="color: white;">Город</label>
+                  <input type="text" class="form-control" id="inputCity" placeholder="Минск">
+                </div>
+                <div class="col-md-3">
+                  <label for="inputState" class="form-label" style="color: white;">Область</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Выберите...</option>
+                    <option>Брестская область</option>
+                    <option>Гродненская область</option>
+                    <option>Витебская область</option>
+                    <option>Могилёвская область</option>
+                    <option>Минская область</option>
+                    <option>г.Минск</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputCity" class="form-label" style="color: white;">Время аренды</label>
+                    <input type="text" class="form-control" id="inputTime" placeholder="2ч.">
+                  </div>
+                <div class="col-md-3">
+                    <label for="inputPhone" class="form-label" style="color: white;">Номер телефона</label>
+                    <input type="text" class="form-control" id="inputPhone" placeholder="+375 (33) 123-45-67">
+                  </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-light"style="color: dark;">ЗАКАЗАТЬ АВТОМОБИЛЬ</button>
+                </div>
+              </form>
+        </div>
+    </div>
+    <div class="container-fluid footer" style="margin-top: 20px;">
+        <div class="container-lg" style="padding-bottom: 10px;">
+            <div class="row">
+                <div class="col-md-6 col-sm-12"><h3>RENT-N-RIDE</h3></div>
+                <div class="col-md-3 col-sm-6">Почта:<br><a href="#" style="text-decoration: none; color: black;">support@rentnride.by</a></div>
+                <div class="col-md-3 col-sm-6">Телефон:<br><a href="#" style="text-decoration: none; color: black;">+375 (33) 123-45-67</a></div>
+            </div>
+        </div>
+        <div class="row bg-body-tertiary bg-dark text-center d-flex align-items-center" style="color: white;" data-bs-theme="dark">
+            <p style="margin: 0; padding: 15px;">©️Rent-n-Ride</p>
+        </div>
+    </div>
+</body>
+</html>
